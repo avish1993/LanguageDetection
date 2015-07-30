@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>File Uploading Form</title>
+</head>
+<body>
+ <div style="width:100%;"> 
+<h1 align="center">Language Detection</h1>
+<div style="float:left; width:30%; padding-left:160px; padding-top:100px; ">
+<h3>File Upload:</h3>
+Select file to upload: <br/>
+<form action="upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" /><br>
+    <input type="submit" value="Upload File"/>
+</form>
+</div>
+<div style="float:right; width:40%; padding-top:100px; ">
+<h3>Phrase Language Detection:</h3>
+Enter your phrase : <br/>
+<form action="upload" method="get">
+<input type="text" name="phrase"/>
+<br />
+<input type="submit" value="Submit Phrase" />
+</form>
+ 
+</div>
+ 
+</div>
+
+</body>
+</html>
